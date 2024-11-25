@@ -13,6 +13,7 @@ void main() {
       ],
       builder: (context) => const MaterialApp(
         debugShowCheckedModeBanner: false,
+        useInheritedMediaQuery: true,
         home: ScreenUtilInit(
           child: Scaffold(
             body: AttendancePage(),
