@@ -80,9 +80,8 @@ flutter:
   fonts:
     - family: Roboto
       fonts:
-      - asset: fonts/Roboto-Black.ttf
-      - asset: fonts/Roboto/Roboto-BlackItalic.ttf
-        weight: 400 
+      - asset: assets/fonts/Roboto/Roboto-BoldItalic.ttf
+        weight: 400
   
   # For details regarding fonts from package dependencies,
   # see https://flutter.dev/to/font-from-package
