@@ -1,3 +1,4 @@
+import 'package:attendance_item/gen/fonts.gen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -23,7 +24,7 @@ class StyledContainer extends StatelessWidget {
               fontSize: 19.sp,
               color: Colors.white,
               fontWeight: FontWeight.w600,
-              fontFamily: 'Roboto',
+              fontFamily: FontFamily.roboto,
             ),
           ),
           Text(
@@ -32,7 +33,7 @@ class StyledContainer extends StatelessWidget {
               fontSize: 11.sp,
               color: Colors.white,
               fontWeight: FontWeight.w400,
-              fontFamily: 'Roboto',
+              fontFamily: FontFamily.roboto,
             ),
           ),
         ],

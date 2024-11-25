@@ -1,3 +1,4 @@
+import 'package:attendance_item/gen/fonts.gen.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_screenutil/flutter_screenutil.dart';
 
@@ -14,7 +15,7 @@ class StyledColumn extends StatelessWidget {
         Text(
           record,
           style: TextStyle(
-            fontFamily: 'Roboto',
+            fontFamily: FontFamily.roboto,
             fontSize: 12.sp,
             fontWeight: FontWeight.w600,
             color: const Color(0xff293646),
@@ -23,7 +24,7 @@ class StyledColumn extends StatelessWidget {
         Text(
           placeHolder,
           style: TextStyle(
-            fontFamily: 'Roboto',
+            fontFamily: FontFamily.roboto,
             fontSize: 11.sp,
             fontWeight: FontWeight.w400,
             color: const Color(0xff6A7D94),
