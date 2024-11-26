@@ -45,7 +45,7 @@ class HistoryList extends StatelessWidget {
         } else {
           final attendanceData = snapshot.data!;
           return SizedBox(
-            height: 350.w,
+            height: 300.w,
             child: ListView.builder(
               itemCount: attendanceData.length,
               itemBuilder: (context, index) {
