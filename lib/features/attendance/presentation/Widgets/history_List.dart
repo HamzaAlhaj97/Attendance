@@ -83,21 +83,15 @@ class HistoryList extends StatelessWidget {
                             ),
                           ],
                         ),
-                        SizedBox(
-                          width: 20.w,
-                        ),
+                       10.verticalSpace,
                         StyledColumn(
                             record: record['arrivalTime'] ?? '',
                             placeHolder: 'Punch In'),
-                        SizedBox(
-                          width: 20.w,
-                        ),
+                        10.verticalSpace,
                         StyledColumn(
                             record: record['leavingTime'] ?? '',
                             placeHolder: 'Punch Out'),
-                        SizedBox(
-                          width: 20.w,
-                        ),
+                        10.verticalSpace,
                         StyledColumn(
                             record: calculateTotalHours(
                                 record['arrivalTime'] ?? '',
