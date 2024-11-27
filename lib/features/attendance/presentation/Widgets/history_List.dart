@@ -77,27 +77,23 @@ class HistoryList extends StatelessWidget {
                       children: [
                         Column(
                           children: [
-                            StyledContainer(
+                            StyledContainer(totalHours: calculateTotalHours(
+                                record['arrivalTime'] ?? '',
+                                record['leavingTime'] ?? ''),
                               dayNumber: record['dayNumber'] ?? '',
                               dayShort: record['dayShort'] ?? '',
                             ),
                           ],
                         ),
-                        SizedBox(
-                          width: 20.w,
-                        ),
+                       20.horizontalSpace,
                         StyledColumn(
                             record: record['arrivalTime'] ?? '',
                             placeHolder: 'Punch In'),
-                        SizedBox(
-                          width: 20.w,
-                        ),
+                        20.verticalSpace,
                         StyledColumn(
                             record: record['leavingTime'] ?? '',
                             placeHolder: 'Punch Out'),
-                        SizedBox(
-                          width: 20.w,
-                        ),
+                        20.verticalSpace,
                         StyledColumn(
                             record: calculateTotalHours(
                                 record['arrivalTime'] ?? '',
