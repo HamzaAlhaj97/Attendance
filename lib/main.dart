@@ -15,9 +15,7 @@ void main() {
         debugShowCheckedModeBanner: false,
         useInheritedMediaQuery: true,
         home: ScreenUtilInit(
-          child: Scaffold(
-            body: AttendancePage(),
-          ),
+          child: AttendancePage(),
         ),
       ),
     ),
